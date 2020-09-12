@@ -1,12 +1,3 @@
-// Default URL for triggering event grid function in the local environment.
-// http://localhost:7071/runtime/webhooks/EventGrid?functionName={functionname}
-
-// Learn how to locally debug an Event Grid-triggered function:
-//    https://aka.ms/AA30pjh
-
-// Use for local testing:
-//   https://{ID}.ngrok.io/runtime/webhooks/EventGrid?functionName=Thumbnail
-
 using Azure.Storage.Blobs;
 using Microsoft.Azure.EventGrid.Models;
 using Microsoft.Azure.WebJobs;
